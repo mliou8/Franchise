@@ -1,0 +1,18 @@
+  {% extends "layout.html" %}
+
+    {% block content %}
+      <h3>Pages</h3>
+      <hr>
+      <form method="GET" action="/wiki/search">
+        login: <input type="text" name="login" />
+        password: <input type="text" name="password" />
+        <button type="submit">Log Me In!</button>
+      </form>
+      <hr>
+      <ul class="list-unstyled">
+        <ul>
+          {% for user in users %}
+          {% endfor %}
+        </ul>
+      </ul>
+    {% endblock %}

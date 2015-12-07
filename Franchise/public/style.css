@@ -1,0 +1,43 @@
+#head {
+	background-color: #00b7cc;
+	opacity: .7;
+	margin-bottom: 0;
+	padding: 4%;
+}
+
+.jumbotron h1 {
+	color: #ffdd99;
+}
+
+body {
+	background-image: url('http://orig06.deviantart.net/a2ae/f/2012/212/a/1/blur_bridge_wallpaper_by_prolite-d598z4k.jpg');
+	background-size: 100%;
+}
+
+.container div {
+	display: block;
+	margin: 15% auto;
+
+}
+
+.glyphicon {
+	font-size: 160px;
+	opacity:.95;
+}
+
+.green {
+	color:#70db70;
+}
+
+.blue {
+	color: #ccf2ff;
+}
+
+body {
+	box-sizing: border-box;
+}
+
+.container h2 {
+	color:#fff;
+	font-size: 40px;
+}

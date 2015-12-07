@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>myFranchise Account Creation</title>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/home">Homepage</a>
+          <a class="navbar-brand" href="/users">All Users</a>
+        </div>
+        <div id="nav-items" class="collapse navbar-collapse">
+
+        </div>
+      </div>
+    </div>
+    <div class="container content">
+    	<h3>Pages</h3>
+  <hr>
+  <h3> Welcome to this page right? </h3>
+  <hr>
+   {% block content %}{% endblock %}
+    </div>
+    <hr/>
+    <div id="footer" class="container text-muted">
+      Michael Liou + John Mcgowan
+    </div>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  </body>
+</html>
+

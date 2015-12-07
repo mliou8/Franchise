@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>myFranchise Account Creation</title>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">Homepage</a>
+          <a class="navbar-brand" href="/users">All Users</a>
+        </div>
+        <div id="nav-items" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container content">
+    	<h3>Pages</h3>
+  <h3> Please fill out some information </h3>
+  <hr>
+  <form method="POST" action="/newuser/submit" class="form-horizontal">
+
+  <div class="form-group">
+    <label for="name" class="col-sm-2 control-label">Name:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="name" placeholder="Your name here.">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="email" class="col-sm-2 control-label">Email:</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" name="email" placeholder="example@mail.com">
+    </div>
+  </div>
+
+   <div class="form-group">
+    <label for="password" class="col-sm-2 control-label">Password:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="password" placeholder="@*$@#! hunter22">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="education" class="col-sm-2 control-label">Education:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="education" placeholder="School of Hard Knocks">
+    </div>
+  </div>
+
+    <strong>Investment</strong>
+
+<div class="form-group in-line">
+        <label class="radio-inline" >
+          <input type="radio" name="optradio" value="invest-low"> >100,000 value
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="optradio" value="invest-med"> >250,000 value
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="optradio" value="invest-high"> >500,000 value
+        </label>
+</div>
+
+    <div class = "form-group">
+    <strong> Experience: </strong> <br>
+    <input type="checkbox" name="experience" value="coffee"> Coffeeshops <br>
+    <input type="checkbox" name="experience" value="fast-food"> Fast Food <br>
+    <input type="checkbox" name="experience" value="laundromat"> Laundromat <br>
+    <input type="checkbox" name="experience" value="grocery"> Grocery Store <br> <br>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+  <hr>
+    </div>
+    <hr/>
+    <div id="footer" class="container text-muted">
+      Michael Liou + John Mcgowan
+    </div>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
