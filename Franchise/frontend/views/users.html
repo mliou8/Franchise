@@ -35,11 +35,13 @@
       <ul class="list-unstyled">
         <ul>
           {% for user in users %}
-          <li>
-            {{user.email}}
-            {{user.name}}
-            {{user.experience}}
-          </li>
+          <span>
+            <li> Username: {{user.email}}</li>
+            <li> Password: {{user.password}} </li>
+            <li> Name: {{user.name}} </li>
+            <li> Experience: {{user.experience}} </li>
+            <br>
+          </span>
           {% endfor %}
         </ul>
       </ul>
